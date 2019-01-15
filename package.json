@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://nikzayn.github.io/seasons",
   "dependencies": {
-    "ghpages": "0.0.10",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
@@ -16,7 +16,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
